@@ -1,9 +1,9 @@
 {
-	"id": "HideIt",
-	"name": "Hide It!",
+	"id": "hide-it",
+	"name": "Hide It",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Hides tabs visual clutter",
+        "description": "Hides the visual clutter of tabs.",
 	"author": "Valac",
 	"authorUrl": "https://github.com/Valac-Design",
 	"isDesktopOnly": true,

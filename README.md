@@ -1,4 +1,4 @@
-![[Hide-It-PNG 1.png]]
+![[Hide-It-PNG.png]]
 
 # **Hide It!**
 

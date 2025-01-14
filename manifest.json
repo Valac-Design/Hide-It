@@ -1,0 +1,12 @@
+{
+	"id": "HideIt",
+	"name": "Hide It!",
+	"version": "0.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "Hides the tabs, shrimple as..",
+	"author": "Valac",
+	"authorUrl": "https://github.com/Valac-Design",
+	"isDesktopOnly": true,
+	"js": "main.js",  
+	"css": "styles.css" 
+}

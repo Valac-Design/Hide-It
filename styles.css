@@ -3,24 +3,31 @@
   display: none !important;
 }
 
-/* Move tab header container and sidebar toggle button to left sidebar actions */
+/*
+The following code is commented out because it is still in testing for future updates.
+While the goal is to move the tab header container and sidebar toggle button to the 
+left sidebar actions for better aesthetics, the implementation is incomplete and may 
+cause formatting issues or unexpected behavior. Leaving this code active could disrupt 
+the functionality or visual consistency of the Obsidian interface.
+
+Once the testing phase is complete, this section will be re-enabled with proper adjustments 
+to ensure universal compatibility and improved user experience.
+
 .side-dock-actions {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px; /* Add spacing between elements */
+  gap: 15px;
 }
 
-/* Style and position the moved icons */
 .workspace-tab-header-container-inner,
 .sidebar-toggle-button.mod-right {
-  position: static; /* Reset their positioning for new container */
-  opacity: 0; /* Start invisible for animation */
-  transform: translateY(-20px); /* Start with an upward offset */
-  animation: fadeIn 0.5s ease-out forwards; /* Fade-in animation */
+  position: static;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeIn 0.5s ease-out forwards;
 }
 
-/* Define the fade-in animation */
 @keyframes fadeIn {
   to {
     opacity: 1;
@@ -28,10 +35,10 @@
   }
 }
 
-/* Optional: Style for the sidebar actions area */
 .side-dock-actions {
-  background-color: var(--background-primary); /* Match Obsidian's theme */
-  border-radius: 8px; /* Round corners */
-  padding: 10px; /* Add some padding */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+  background-color: var(--background-primary);
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+*/

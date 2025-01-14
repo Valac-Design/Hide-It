@@ -1,44 +1,18 @@
-/* Hide only the tabs bar in each workspace container */
-.workspace-tab-header-container {
+/* Hide only the tabs within the workspace header */
+.workspace-leaf-resize-handle, .workspace-tab-header-new-tab {
   display: none !important;
 }
 
-/*
-The following code is commented out because it is still in testing for future updates.
-While the goal is to move the tab header container and sidebar toggle button to the 
-left sidebar actions for better aesthetics, the implementation is incomplete and may 
-cause formatting issues or unexpected behavior. Leaving this code active could disrupt 
-the functionality or visual consistency of the Obsidian interface.
-
-Once the testing phase is complete, this section will be re-enabled with proper adjustments 
-to ensure universal compatibility and improved user experience.
-
-.side-dock-actions {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
+/* Optional: Animation for a smoother transition when hiding tabs */
+.workspace-tab-header-container-inner > .workspace-tab-header {
+  opacity: 1;
+  animation: fadeOut 0.3s ease-out forwards;
 }
 
-.workspace-tab-header-container-inner,
-.sidebar-toggle-button.mod-right {
-  position: static;
-  opacity: 0;
-  transform: translateY(-20px);
-  animation: fadeIn 0.5s ease-out forwards;
-}
-
-@keyframes fadeIn {
+/* Define fade-out animation */
+@keyframes fadeOut {
   to {
-    opacity: 1;
-    transform: translateY(0);
+    opacity: 0;
+    transform: translateY(-10px);
   }
 }
-
-.side-dock-actions {
-  background-color: var(--background-primary);
-  border-radius: 8px;
-  padding: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-*/

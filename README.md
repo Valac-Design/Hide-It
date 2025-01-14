@@ -8,8 +8,8 @@
 
 ## **Features**
 - Hide the tabs bar for a minimalist and focused workspace.
-- Future versions will include more options to customize and hide interface elements.
-
+- Enable or Disable the tab hiding animation
+  
 ---
 
 ## **How to Install**
@@ -28,6 +28,8 @@
 1. Open the Obsidian **Settings** menu.
 2. Navigate to **Community Plugins** and ensure the plugin is enabled.
 3. Enjoy a cleaner workspace with hidden tabs!
+
+  Optional: In the Settings, locate the "Community Plugins" category, beneath should be "Hide It!", click to find the anmation toggle setting!
 
 ---
 
